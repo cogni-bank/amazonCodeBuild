@@ -22,7 +22,6 @@ phases:
     commands:
       - echo Entered the pre_build phase and logging into Amazon ECR..
       - echo $(aws ecr get-login --no-include-email --region $AWS_DEFAULT_REGION)
-      - docker login –u seshuch95 --password-stdin
   build:
     commands:
       - echo Entered the build phase, Building the Project and Creating a JAR in build/libs using ./gradlew build
