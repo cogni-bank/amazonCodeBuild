@@ -5,7 +5,7 @@ env:
     JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64"
     AWS_DEFAULT_REGION: "us-east-1"
     IMAGE_REPO_NAME: "amazoncicd"
-    IMAGE_TAG: "amazoncicd"
+    IMAGE_TAG: "latest"
   parameter-store:
     AWS_ACCOUNT_ID: "/CodeBuild/AWS_ACCOUNT_ID"
     AWS_ACCESS_KEY_ID: "/CodeBuild/AWS_ACCESS_KEY_ID"
