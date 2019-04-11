@@ -18,9 +18,9 @@ public class AmazonCodeBuildApplication {
 @RestController
 class TestController{
 
-	@GetMapping("/hello")
+	@GetMapping("/")
 	public String test(){
-		return "holla";
+		return " YOUR LOAD BALANCER IS NOT ABLE TO HIT ANY TARGET GROUP.. THIS IS THE DEFAULT TARGET GROUP";
 	}
 
 	@GetMapping("/helloWorld")
